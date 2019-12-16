@@ -1,0 +1,189 @@
+* {
+	font-family: 'Montserrat', sans-serif;
+	scroll-behavior: smooth;
+}
+
+:target {
+  display: block;
+  position: relative;
+  top: -120px;
+  visibility: hidden;
+}
+
+nav {
+	background-color: white;
+	border-bottom: 5px solid #2e2e2e;
+}
+
+#navlinks {
+	font-size: 20px;
+}
+
+#navlinks li {
+	padding-right: 1em;
+}
+
+#navlinks a {
+	color: #212121;
+}
+
+
+#navlinks a:hover {
+	color: #ff8800;
+}
+
+/***Menu***/
+#map img {
+	border: 10px solid #3cd6b6;
+	border-radius: 20%;
+}
+/***Menu***/
+
+.img-fluid {
+	width: 100%;
+}
+
+.parallax {
+	background-image: 
+		linear-gradient(
+			rgba(0,0,0,0.3),
+			rgba(0,0,0,0.3)
+		),
+		url("img/burger14.jpg");
+	height: 650px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallax h2 {
+	font-size: 50px;
+	color: white;
+	padding-top: 35%;
+	font-weight: bold;
+}
+
+.parallax p {
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+}
+
+#main-btn {
+	background-color: #ff8400;
+	border: none;
+	border-radius: 0%;
+	width: 200px;
+}
+
+#main-btn:hover {
+	background-color: #ff9914;
+	color: black;
+}
+
+#menu {
+	
+}
+
+#menu h2{
+	font-size: 45px;
+	color: #ff8800;
+	text-align: center;
+}
+
+#about {
+}
+
+#about h2{
+	font-size: 45px;
+	color: #ff8800;
+	text-align: center;
+}
+
+#about p{
+	font-size: 25px;
+}
+
+#contact-us {
+}
+
+#contact-us h2{
+	font-size: 45px;
+	color: #ff8800;
+	text-align: center;
+}
+
+#contact-us p{
+	font-size: 25px;
+}
+
+.row {
+	padding: 1.5em;
+}
+
+.card {
+	background-color: #4a4a4a;
+	color: white;
+	border: 0.5px solid white;
+}
+
+.card h4 {
+	font-size: 35px;
+}
+
+.card a {
+	background-color: #ff8000;
+	color: white;
+	border: 0.5px solid #ff8000;
+}
+
+footer, footer a{
+	background-color: #242424;
+	color: white;
+	font-size: 20px;
+}
+
+.light {
+	border: 0.5px solid white;
+}
+
+footer h5 {
+	color: #ffe1bf;
+	font-size: 35px;
+}
+
+#webaddress h5 {
+	font-size: 18px;
+}
+
+/***********news and events****************/
+
+div.naes {
+	height: 250px;
+	overflow: auto;
+}
+
+#naes-row {
+	background-color: #2bff64;
+}
+
+#naes-date {
+	background-color: #d9d9d9;
+	padding: 1em;
+	margin: 0.2em;
+}
+
+#naes-date p {
+	font-size: 20px;
+}
+
+#naes-info {
+	background-color: white;
+	border: 1px solid black;
+	padding: 1em;
+}
+
+#naes-info p {
+	font-size: 18px;
+}
